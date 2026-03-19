@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menu_refresh"
+        android:title="새로고침"
+        android:icon="@android:drawable/ic_menu_rotate"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/menu_settings"
+        android:title="알림 주기 설정"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/menu_open_browser"
+        android:title="브라우저에서 열기"
+        app:showAsAction="never" />
+
+</menu>
